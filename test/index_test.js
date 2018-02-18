@@ -1,7 +1,7 @@
 var jsdom = require('jsdom'),
     fs = require('fs'),
     assert = require('chai').assert,
-    file = fs.readFileSync('index.html').toString();
+    file = fs.readFileSync('src/index.html').toString();
 
 describe('Your HTML Page', function() {
   var window;
