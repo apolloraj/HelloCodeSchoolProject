@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "browser-sync start --server ./src --files ./src",
-    "test": "mocha --compilers js:babel-register test/*.spec.js",
+    "test": "./node_modules/.bin/mocha test/",
     "deploy:github-pages": "git subtree push --prefix src origin gh-pages"
   },
   "author": "Sergio Cruz <sergio@codeschool.com>",
