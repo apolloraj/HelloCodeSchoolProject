@@ -1,32 +1,30 @@
-.headercontent {
-    display: inline-flex;
-  }
-.headercontent h1 {
+.container {
+  width: 980px;
+  margin:auto;
+}
+.headercontent .title {
     text-decoration: underline;
     background-image: url("header-background.jpeg");
-    padding: 40px 100px 40px 100px;
+    padding: 20px 100px 20px 100px;
     margin-bottom: 10px;
-    margin-top: 10px;
     text-align: center;
-    width: 800px;
-    height: 50px;
+    float:left
 }
 .headercontent img {
-  /* float: right; */
   width: 200px;
-  height: 150px;
+  height: 120px;
   background: #555;
-  /* clear: both; */
+  clear: both;
 }
 .header h2 {
   /* clear:left; */
   text-decoration: underline;
 }
 .nav {
-  border: 10px;
+  padding: 0px;
 }
 .nav li {
-  display: inline-block;
+  display: inline;
   border-style:dotted;
   padding-right: 20px;
 }
